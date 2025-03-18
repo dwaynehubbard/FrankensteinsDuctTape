@@ -1,0 +1,17 @@
+[Unit]
+Description=Satori Neuron
+After=network.target
+
+[Service]
+Type=simple
+# replace with the location satori is installed
+WorkingDirectory=$HOME/.satori
+ExecStart=/bin/bash neuron.sh
+Restart=always
+TimeoutSec=30
+# replace with docker-privileged user and group (advised)
+#User=username
+Group=docker
+
+[Install]
+WantedBy=multi-user.target
