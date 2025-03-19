@@ -135,7 +135,6 @@ enable_v2_engine() {
 	fi
 	echo "engine version: v2" > ${SATORI_DIR}/config/config.yaml
 	echo "mining mode: true" >> ${SATORI_DIR}/config/config.yaml
-	echo "invited by: Ec9CP7JwAYQr2d9Q2Nen4M948zUqQqyBC7" >> ${SATORI_DIR}/config/config.yaml
 	cd ${WORKING_DIR}
 }
 
