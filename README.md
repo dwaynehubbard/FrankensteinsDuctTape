@@ -52,5 +52,14 @@ cd ~/neurons ;
 ./update_neuron.sh ~/neurons 
 ```
 
+# Tailing Logs
+
+To tail the logs of any given neuron, simply cd to the ~/neurons/neuronNID directory and execute the tail script.
+For example, to tail neuron015:
+
+```
+cd ~/neurons/neuron015 ;
+../tail_satori_NID_logs.sh
+```
 
 
